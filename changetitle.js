@@ -1,0 +1,1 @@
+document.addEventListener('visibilitychange', function () {if (document.visibilityState == 'hidden') {normal_title = document.title;document.title = '等待你的再次到来  ';} else document.title = normal_title;});
